@@ -19,7 +19,7 @@ body {
 }
 
 /* This is supposed to move my start button around to get it in the middle of my green box nut doesn't work */
-.btn btn-primary btn-lg{
+.startBtn{
 
     padding: 100px;
     margin: 100px;

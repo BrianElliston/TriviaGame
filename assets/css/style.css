@@ -1,19 +1,24 @@
+
+/* This turns my header green */
 h1 {
     
     background: green;
 }
+
  /* This is my background image */
 body {
 
     background-image:  url("wrappingPaper.jpg");
 
 }
+
 /* This gives my central box a green color and makes it 400px high */
 .col-md-6{
     height: 400px;
     background: yellowgreen;
 }
 
+/* This is supposed to move my start button around to get it in the middle of my green box nut doesn't work */
 .btn btn-primary btn-lg{
 
     padding: 100px;

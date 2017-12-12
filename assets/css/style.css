@@ -2,14 +2,21 @@ h1 {
     
     background: green;
 }
-
-/* body {
+ /* This is my background image */
+body {
 
     background-image:  url("wrappingPaper.jpg");
 
-} */
-
+}
+/* This gives my central box a green color and makes it 400px high */
 .col-md-6{
     height: 400px;
     background: yellowgreen;
+}
+
+.btn btn-primary btn-lg{
+
+    padding: 100px;
+    margin: 100px;
+    border: 100px;
 }

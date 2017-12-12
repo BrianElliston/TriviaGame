@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Bootstrap 3.7 page structure with CDN and jQuery</title>
+	<title>TriviaGame</title>
 
 <!-- These Links point to Your style sheets; you may/will need to alter these paths to your sites file structure. Note: Reset.css must come FIRST!!! -->
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+
 
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,15 +25,29 @@ crossorigin="anonymous"></script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">   
 </head>
 <body>
+<!-- This is my main heading -->
+  <h1>Happy Holiday Trivia</h1>
 
+<!-- A page break -->
+  <br>
+
+<!-- A div w/class container to hold my Bootstrap stuff -->
+<div class=container>
+
+  <!-- This div holds my main box using bootstrap column and row method -->
+  <div class="row">
+    <div class="col-md-3">.col-md-3</div>
+    <div class="col-md-6">.col-md-6</div>
+    <div class="col-md-3">.col-md-3</div>
+  </div>
+  </div>
   
-<h1>Hello!</h1>
 
-
-
+<!-- This div closes my div w/class container for my bootstrap -->
+</div>
 <!-- JAVASCRIPT - This must be last item in <body>. -->
   <!-- ========================================= -->
   <script type="text/javascript" src="assets/javascript/app.js"></script>

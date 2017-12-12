@@ -1,4 +1,15 @@
 h1 {
+    
+    background: green;
+}
 
-    background: green
+/* body {
+
+    background-image:  url("wrappingPaper.jpg");
+
+} */
+
+.col-md-6{
+    height: 400px;
+    background: yellowgreen;
 }

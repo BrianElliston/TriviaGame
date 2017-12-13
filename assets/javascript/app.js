@@ -38,6 +38,28 @@ $(".btn").click(function() {
       $("#remain").html("Time Remaining: " + timeRemain);
     }
     run();
+
+
+    // This stops my timer
+  
+
+    // if (timeRemain=0){
+
+    //   $(".btn").append();
+    //   $("#remain").remove("Time Remaining: " + timeRemain);
+    //   $("#one").remove("Question One");
+    //   $("#two").remove("Question Two");
+    //   $("#three").remove("Question Three");
+    //   $("#four").remove("Question Four");
+      
+
+    
+
+    // }
+
+
+
+
     // var index = $(this).attr("data-index");
 
     // if(index === storedAnswer){

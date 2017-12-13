@@ -4,7 +4,7 @@
 
 
 var timeRemain = 60;
-var answerOne;
+var answerOne = ["an old sil hat", "a dirty sock", "a cucumber nose", "a corn cob pipe"];
 var answerTwo;
 var answerThree;
 var answerFour;

@@ -2,8 +2,8 @@
 
 // These are my global variables*********************
 
-var btnStart;
-var timeRemain;
+
+var timeRemain = 60;
 var answerOne;
 var answerTwo;
 var answerThree;
@@ -28,3 +28,4 @@ $(".btn").click(function() {
 
 
 //   setTimeout method and code for last screen goes here
+

@@ -14,10 +14,16 @@ var answerUnanswered;
 
 // This is my code for when you click on the start button that makes it go to main game screen but doesn't work.  Also should hold a buch of code for everything happening on the main game screen.
 $(".btn").click(function() {
-    alert( "You clicked the start button" );
+    // alert( "You clicked the start button" );
+    $(".btn").remove();
+    $("#remain").append("Time Remaining: " + timeRemain);
+    $("#one").append("Question One");
+    $("#two").append("Question Two");
+    $("#three").append("Question Three");
+    $("#four").append("Question Four");
   });
 
-  
+
 
 
 

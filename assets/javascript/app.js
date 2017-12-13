@@ -11,17 +11,33 @@ var answerFour;
 var answerCorrect;
 var answerWrong;
 var answerUnanswered;
-
+var hold;
 // This is my code for when you click on the start button that makes it go to main game screen but doesn't work.  Also should hold a buch of code for everything happening on the main game screen.
 $(".btn").click(function() {
     // alert( "You clicked the start button" );
+
     $(".btn").remove();
     $("#remain").append("Time Remaining: " + timeRemain);
     $("#one").append("Question One");
     $("#two").append("Question Two");
     $("#three").append("Question Three");
     $("#four").append("Question Four");
+    
 
+    // This will start my countdown when the start button is clicked
+
+    function run()  {
+
+      hold=setInterval(decrement, 1000);
+
+    }
+
+    function decrement(){
+
+      timeRemain--;
+      $("#remain").html("Time Remaining: " + timeRemain);
+    }
+    run();
     // var index = $(this).attr("data-index");
 
     // if(index === storedAnswer){
@@ -30,7 +46,13 @@ $(".btn").click(function() {
 
   });
 
-$
+  
+
+
+
+
+
+
 
 
 

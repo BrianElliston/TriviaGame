@@ -4,7 +4,7 @@
 
 
 var timeRemain = 60;
-var answerOne = ["an old sil hat", "a dirty sock", "a cucumber nose", "a corn cob pipe"];
+var answerOne = ["an old silk hat", "a dirty sock", "a cucumber nose", "a corn cob pipe"];
 var answerTwo;
 var answerThree;
 var answerFour;
@@ -21,9 +21,16 @@ $(".btn").click(function() {
     $("#two").append("Question Two");
     $("#three").append("Question Three");
     $("#four").append("Question Four");
+
+    // var index = $(this).attr("data-index");
+
+    // if(index === storedAnswer){
+      
+    // }
+
   });
 
-
+$
 
 
 

@@ -39,11 +39,47 @@ $(".btn").click(function() {
 
     // This stops my timer
 
-    setTimeout(function(){ alert("Now you need to quit screwing around and use logic to append some scores to right and wrong answers or Glen's gonna give you anothe C"); }, 6000);
+    setTimeout(function(){ alert("Now you need to quit screwing around and use logic to append some scores to right and wrong answers or Glen's gonna give you another C"); }, 6000);
   
 
+
+
+    // Gonna use some logic here to get come scores up
+
+
+    // If (value= 1a = true){
+
+    //     answerCorrect++
+    
+
+    // }
+
+    // else (value=1a = false){
+
+    //     answerWrong++
+    // }
    
 
+    // If (value=2c = true){
+
+    //   answerCorrect++ 
+    // }
+
+    // else (value=2c = false){
+
+    //   answerWrong++
+    // }
+
+
+    // if (value=3b = true){
+
+    //   answerCorrect++ 
+    // }
+
+    // else (){
+
+    //   answerWrong++
+    // }
 
 
     // var index = $(this).attr("data-index");

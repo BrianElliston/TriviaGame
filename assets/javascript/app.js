@@ -8,9 +8,9 @@ var answerOne = ["an old silk hat", "a dirty sock", "a cucumber nose", "a corn c
 var answerTwo;
 var answerThree;
 var answerFour;
-var answerCorrect;
-var answerWrong;
-var answerUnanswered;
+var answerCorrect = 0;
+var answerWrong = 0;
+var answerUnanswered = 0;
 var hold;
 // This is my code for when you click on the start button that makes it go to main game screen but doesn't work.  Also should hold a buch of code for everything happening on the main game screen.
 $(".btn").click(function() {

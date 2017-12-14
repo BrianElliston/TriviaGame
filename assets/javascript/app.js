@@ -3,7 +3,7 @@
 // These are my global variables*********************
 
 
-var timeRemain = 60;
+var timeRemain = 5;
 var answerOne = ["an old silk hat", "a dirty sock", "a cucumber nose", "a corn cob pipe"];
 var answerTwo;
 var answerThree;
@@ -18,10 +18,7 @@ $(".btn").click(function() {
 
     $(".btn").remove();
     $("#remain").append("Time Remaining: " + timeRemain);
-    $("#one").append("Question One");
-    $("#two").append("Question Two");
-    $("#three").append("Question Three");
-    $("#four").append("Question Four");
+    
     
 
     // This will start my countdown when the start button is clicked
@@ -41,22 +38,11 @@ $(".btn").click(function() {
 
 
     // This stops my timer
+
+    setTimeout(function(){ alert("Now you need to quit screwing around and use logic to append some scores to right and wrong answers or Glen's gonna give you anothe C"); }, 6000);
   
 
-    // if (timeRemain=0){
-
-    //   $(".btn").append();
-    //   $("#remain").remove("Time Remaining: " + timeRemain);
-    //   $("#one").remove("Question One");
-    //   $("#two").remove("Question Two");
-    //   $("#three").remove("Question Three");
-    //   $("#four").remove("Question Four");
-      
-
-    
-
-    // }
-
+   
 
 
 
@@ -69,7 +55,7 @@ $(".btn").click(function() {
   });
 
   
-
+  
 
 
 

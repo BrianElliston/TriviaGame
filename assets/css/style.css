@@ -21,8 +21,8 @@ body {
 /* This is supposed to move my start button around to get it in the middle of my green box nut doesn't work */
 .startBtn{
 
-    padding: 100px;
-    margin: 100px;
+    padding: 50px;
+    margin: 60px;
     border: 100px;
 
 }
